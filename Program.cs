@@ -21,9 +21,11 @@ namespace Basic_Calculator
             Console.Write("Enter Your your operator: "); // + - / *
             string operatorInput = Console.ReadLine();
 
-            Console.Write("Enter Your first number: ");
-            string secondNumberInput = Console.ReadLine();
-            int secondNumber = Convert.ToInt32(secondNumberInput);
+            Console.WriteLine.("Now choose your operator ");
+            Console.WriteLine.("1. plus (+)");
+            Console.WriteLine.("2. minus (-)");
+            Console.WriteLine.("3. divide (/)");
+            Console.WriteLine.("4. multiply (*)" + Environment.NewLine);
 
             double result = 0.0; 
             
